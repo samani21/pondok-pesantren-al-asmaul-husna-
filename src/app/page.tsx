@@ -7,7 +7,8 @@ import {
   Sparkles,
   MapPin,
   Phone,
-  ExternalLink
+  ExternalLink,
+  Users
 } from 'lucide-react';
 
 const App = () => {
@@ -163,6 +164,13 @@ const App = () => {
                 <span>Buka di tab baru google form</span>
               </div>
             </div>
+            <button
+              onClick={()=>window.open('https://chat.whatsapp.com/Dk9aVBNiCpl5gPcd1UbwQ9?mode=gi_t','_blank')}
+              className="w-full py-3.5 mt-4 rounded-2xl font-bold text-base flex items-center justify-center gap-3 bg-white border-2 border-green-500 text-green-700 hover:bg-green-50 transition-all active:scale-95 shadow-lg shadow-green-100 animate-in fade-in slide-in-from-bottom-2 duration-300"
+            >
+              <Users className="w-5 h-5" />
+              Gabung Grup WA
+            </button>
           </div>
         </div>
       </main>
