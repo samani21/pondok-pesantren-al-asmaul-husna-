@@ -25,7 +25,7 @@ const App = () => {
   const categories = [
     {
       id: 'smp',
-      label: 'SMP ISLAM TERPADU',
+      label: 'SMP IT AL ASMAUL HUSNA',
       subtitle: 'Al Asmaul Husna - Tanah Bumbu',
       icon: <BookOpen className="w-7 h-7" />,
       color: 'from-green-500 to-green-700',
