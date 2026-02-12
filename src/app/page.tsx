@@ -7,7 +7,6 @@ import {
   Sparkles,
   MapPin,
   Phone,
-  MessageCircle,
   ExternalLink
 } from 'lucide-react';
 
@@ -184,7 +183,7 @@ const App = () => {
               </div>
             </div>
             <div className="text-[10px] text-slate-400 font-bold tracking-[0.2em] uppercase">
-              © 2024 Pondok Pesantren {schoolName} <br className="md:hidden" />· Tanah Bumbu, Kalsel
+              © 2026 Pondok Pesantren {schoolName} <br className="md:hidden" />· Tanah Bumbu, Kalsel
             </div>
           </div>
 
@@ -193,7 +192,7 @@ const App = () => {
             {/* Contact 1 */}
             <div className="flex items-center gap-4 group">
               <div className="bg-green-50 p-4 rounded-2xl group-hover:bg-green-100 transition-all border border-green-100">
-                <MessageCircle className="w-6 h-6 text-green-700" />
+                <Phone className="w-6 h-6 text-green-700" />
               </div>
               <div className="text-left">
                 <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-0.5">Ustadzah Khairiah</p>
