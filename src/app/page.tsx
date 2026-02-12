@@ -26,7 +26,7 @@ const App = () => {
     {
       id: 'smp',
       label: 'SMP IT AL ASMAUL HUSNA',
-      subtitle: 'Al Asmaul Husna - Tanah Bumbu',
+      subtitle: 'Tanah Bumbu - Kalimantan Selatan',
       icon: <BookOpen className="w-7 h-7" />,
       color: 'from-green-500 to-green-700',
       lightColor: 'bg-green-50',
